@@ -7,11 +7,11 @@ scissors = "Scissors"
 
 player_move = input("Choose [r]ock, [p]aper or [s]cissors: ")
 
-if player_move == "r":
+if player_move == "r" or player_move == "rock":
     player_move = rock
-elif player_move == "p":
+elif player_move == "p" or player_move == "paper":
     player_move = paper
-elif player_move == "s":
+elif player_move == "s" or player_move == "scissors":
     player_move = scissors
 else:
     raise SystemExit("Invalid Input. Try again...")
@@ -44,4 +44,5 @@ play_again = input(Fore.GREEN + "Type [yes] to play Again or [no] to quit: ")
 if play_again == "yes":
     exec(open("rock_paper_scissors.py").read())
 else:
+    print("Thank you for playing!")
     exit()
