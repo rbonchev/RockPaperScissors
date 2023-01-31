@@ -45,4 +45,3 @@ if play_again == "yes":
     exec(open("rock_paper_scissors.py").read())
 else:
     print("Thank you for playing!")
-    exit()
