@@ -17,3 +17,8 @@ The player enters one of the following options:
 * rock or r
 * paper or p
 * scissors or s
+
+You can play the game directly in your web browser by visiting: https://replit.com/@RadostinBonchev/RockPaperScissors#main.py
+
+![image](https://user-images.githubusercontent.com/123975092/215721732-aca119ec-f9cf-4d22-9d1b-b8c1c494a428.png)
+
